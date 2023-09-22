@@ -59,7 +59,7 @@ public class HomeController {
 	//  로그아웃
 	@RequestMapping("/Logout")
 	public  String   logout( HttpSession  session   ) {
-				
+				 
 		return  "redirect:/Login";
 	}
 	
